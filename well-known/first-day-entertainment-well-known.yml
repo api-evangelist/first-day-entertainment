@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.firstdayentertainment.net/
+summary: >-
+  Probed the studio's only public host for standard /.well-known/ discovery
+  documents. No document was returned. The site is a Wix-hosted marketing site
+  behind Cloudflare, which answers unknown /.well-known/ paths with HTTP 400.
+  Absence here is the expected result for a consumer games company with no
+  developer or API surface.
+host: www.firstdayentertainment.net
+probes:
+- path: /.well-known/security.txt
+  status: 400
+  file: null
+- path: /.well-known/openid-configuration
+  status: 400
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 400
+  file: null
+- path: /.well-known/api-catalog
+  status: 400
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 400
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null
+- path: /openapi.json
+  status: 400
+  file: null
+- path: /robots.txt
+  status: 200
+  file: null
+  note: standard Wix robots.txt; not a discovery document, not saved

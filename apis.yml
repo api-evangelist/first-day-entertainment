@@ -1,21 +1,70 @@
 aid: first-day-entertainment
 name: First Day Entertainment
-description: First Day Entertainment is a company surfaced as a portfolio company of a16z and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: First Day Entertainment Inc. is a Sunnyvale, California game studio building AI-powered
+  games, founded by Stephen Gou (formerly a founding engineer at Cohere) and Mike Mei, and funded by
+  the a16z SPEEDRUN accelerator (batch 002) and MiraclePlus. The studio ships two titles - Heroes of
+  Magic & Cards, a poker deckbuilding roguelike distributed on Steam, and Mana Land, a single-player
+  RPG in which players adventure alongside conversational AI companions, published on itch.io. First
+  Day Entertainment is a consumer games company; it publishes no public developer portal, API
+  documentation, or machine-readable API artifacts as of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/first-day-entertainment/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/6e8a1f_7f740066ad764f6b97109ec0f6b68442~mv2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
-x-tier: stub
-x-tier-reason: portfolio-lead
+- MiraclePlus
+x-tier: profiled
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Games
+- Gaming
+- Artificial Intelligence
+- Entertainment
+- Consumer
+- Startup
 apis: []
+common:
+- type: DomainSecurity
+  url: security/first-day-entertainment-domain-security.yml
+- type: Website
+  url: https://www.firstdayentertainment.net/
+- type: About
+  url: https://www.firstdayentertainment.net/about
+- type: GitHubOrganization
+  url: https://github.com/First-Day-Entertainment
+- type: LinkedIn
+  url: https://www.linkedin.com/company/first-day-entertainment/
+- type: Twitter
+  url: https://x.com/FirstDayGG
+- type: Investor
+  url: https://speedrun.a16z.com/companies/first-day-entertainment
+- type: Product
+  url: https://store.steampowered.com/app/3843360/Heroes_of_Magic__Cards/
+- type: Product
+  url: https://firstdaygg.itch.io/mana-land
+- type: LLMsTxt
+  url: llms/first-day-entertainment-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
