@@ -48,7 +48,6 @@ tags:
 - Artificial Intelligence
 - Entertainment
 - Consumer
-- Startups
 tags_raw:
 - Company
 - Games
@@ -56,7 +55,6 @@ tags_raw:
 - Artificial Intelligence
 - Entertainment
 - Consumer
-- Startup
 apis: []
 common:
 - type: DomainSecurity
@@ -89,3 +87,7 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
